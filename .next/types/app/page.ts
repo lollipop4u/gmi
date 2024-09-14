@@ -1,4 +1,4 @@
-// File: /home/runner/P2ID/app/page.js
+// File: /home/runner/gmi/app/page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

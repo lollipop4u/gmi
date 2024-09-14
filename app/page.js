@@ -1,3 +1,4 @@
+// app/page.js
 'use client';
 
 import { useState } from 'react';
@@ -36,7 +37,7 @@ export default function Home() {
           <div className="card-body">
             <h2 className="card-title text-center mb-4">Welcome to PlantPal</h2>
             <p className="lead text-center mb-4">
-              Discover the wonders of nature by identifying plants using our advanced AI. Simply upload an image, and we'll provide you with detailed information about the plant.
+              Discover the wonders of nature by identifying plants using our advanced AI. Simply upload an image, and we&apos;ll provide you with detailed information about the plant.
             </p>
             <ImageUpload onImageUpload={handleImageUpload} />
           </div>
