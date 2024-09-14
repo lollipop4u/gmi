@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --forest-green: #228B22;
+  --light-green: #90EE90;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+main {
+  flex: 1;
+}
+
+.bg-forest-green {
+  background-color: var(--forest-green);
+}
+
+.upload-area {
+  background-color: var(--light-green);
+  transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+  background-color: #a5f3a5;
+}
+
+.plant-image {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid var(--forest-green);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success {
+  background-color: var(--forest-green);
+  border-color: var(--forest-green);
+}
+
+.btn-success:hover {
+  background-color: #1a6b1a;
+  border-color: #1a6b1a;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
